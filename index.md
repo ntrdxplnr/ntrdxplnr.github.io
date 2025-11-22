@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-Welcome to my notes.
+Welcome to the Apprentice InterdiXiplinary Scholar Library.
 
 This site has four main sections:
 
