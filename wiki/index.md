@@ -12,4 +12,4 @@ Here is the knowledge **Wiki**.
 - [Calculus](/wiki/maths/calculus/)
 - [Probability & Statistics](/wiki/maths/probability-statistics/)
 - [Graph Theory](/wiki/maths/graph-theory/)
-
+- [Network Science](/wiki/maths/networks/)

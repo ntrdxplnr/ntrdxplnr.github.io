@@ -1,8 +1,5 @@
 @import "zenburn.css";
 
-html, body {
-  font-family: 'ETBook', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important
-}
 
 body {
   max-width: 900px;
@@ -11,19 +8,35 @@ body {
 
 /* Simple horizontal nav */
 nav.tufte-nav {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 nav.tufte-nav a {
   margin-right: 1.5rem;
-  text-decoration: none;
+  font-size: 1.2rem;
+  text-decoration: underline;
   font-weight: 500;
+  color: #383631;
 }
 nav.tufte-nav a:hover {
   text-decoration: underline;
+  color: #5c5850;
 }
 
 pre /* figure which is the pre's parent has max-width:55% might change*/
 {
   padding: 1em;
+}
+
+article
+{
+  padding-top: 10px;
+}
+
+hr {
+  height: 1px;
+  background: #96938c;
+  font-size: 0;
+  border: 0;
 }

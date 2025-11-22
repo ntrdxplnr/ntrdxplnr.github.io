@@ -11,10 +11,12 @@ permalink: /resources/
 
 ## Tools
 
-- [PyTorch](/resources/tools/pytorch/)
-- [spaCy](/resources/tools/spacy/)
+- [Jupyter AI](/resources/tools/jupyter-ai/)
+- [VS Code & Copilot](/resources/tools/vs-code-copilot/)
+- [R](/resources/tools/r/)
+- [Polars](/resources/tools/polars/)
+- [Marimo](/resources/tools/marimo/)
 
 ## Datasets
 
 - [Common Crawl](/resources/datasets/common-crawl/)
-- [MovieLens](/resources/datasets/movielens/)
