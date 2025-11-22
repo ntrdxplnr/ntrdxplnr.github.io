@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Groups · The Apprentice Scholar Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tufte CSS -->
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/tufte.css">
+    <link rel="stylesheet" href="/assets/css/latex.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- MathJax -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="title">The Apprentice Scholar Library</h1>
+      <p class="subtitle">Explaining science to myself</p>
+
+      <nav class="tufte-nav">
+        <a href="/">Home</a>
+        <a href="/wiki/">Wiki</a>
+        <a href="/papers/">Papers</a>
+        <a href="/scholars/">Scholars</a>
+        <a href="/resources/">Resources</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <article>
+  <h2>Groups</h2>
+  <p>A quick note on matrices.</p>
+
+<p>Definition: A <strong>group</strong> is a set $G$ with a binary operation $\cdot$ such that:</p>
+
+<ol>
+  <li>(Closure) For all $a, b \in G$, $a \cdot b \in G$.</li>
+  <li>(Associativity) $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.</li>
+  <li>(Identity) There exists $e \in G$ such that $e \cdot a = a \cdot e = a$ for all $a \in G$.</li>
+  <li>(Inverse) For each $a \in G$, there exists $a^{-1} \in G$ such that $a \cdot a^{-1} = a^{-1} \cdot a = e$.</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># Example code block
+</span><span class="k">def</span> <span class="nf">add_mod_n</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="o">%</span> <span class="n">n</span></code></pre></figure>
+
+
+</article>
+
+    </main>
+  </body>
+</html>

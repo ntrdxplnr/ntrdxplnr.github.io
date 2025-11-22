@@ -11,6 +11,12 @@ kramdown:
   syntax_highlighter_opts:
     line_numbers: false
 
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+
 # No external theme: we’ll use our own layout
 theme: null
 

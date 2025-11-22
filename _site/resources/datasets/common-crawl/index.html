@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test · The Apprentice Scholar Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tufte CSS -->
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/tufte.css">
+    <link rel="stylesheet" href="/assets/css/latex.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- MathJax -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="title">The Apprentice Scholar Library</h1>
+      <p class="subtitle">Explaining science to myself</p>
+
+      <nav class="tufte-nav">
+        <a href="/">Home</a>
+        <a href="/wiki/">Wiki</a>
+        <a href="/papers/">Papers</a>
+        <a href="/scholars/">Scholars</a>
+        <a href="/resources/">Resources</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      <article>
+  <h2>Test</h2>
+  <h1 id="inline-maths">Inline maths</h1>
+<p>Euler’s identity $e^{i\pi} + 1 = 0$.</p>
+
+<h1 id="multiline-maths">Multiline maths</h1>
+<p>\(\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}\)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="figues">Figues</h1>
+<p><img src="/assets/img/figures/resources_test/gaussian.png" alt="Gaussian curve" /></p>
+
+</article>
+
+    </main>
+  </body>
+</html>

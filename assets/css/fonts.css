@@ -1,0 +1,26 @@
+/* Regular */
+@font-face {
+  font-family: 'ETBook';
+  src: url('/assets/fonts/et-book/et-book-roman-line-figures.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'ETBook';
+  src: url('/assets/fonts/et-book/et-book-display-italic-old-style-figures.ttf')  format('ttf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'ETBook';
+  src: url('/assets/fonts/et-book/et-book-bold-line-figures.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

@@ -12,8 +12,8 @@ Definition: A **group** is a set $G$ with a binary operation $\cdot$ such that:
 3. (Identity) There exists $e \in G$ such that $e \cdot a = a \cdot e = a$ for all $a \in G$.
 4. (Inverse) For each $a \in G$, there exists $a^{-1} \in G$ such that $a \cdot a^{-1} = a^{-1} \cdot a = e$.
 
-```python
+{% highlight python %}
 # Example code block
 def add_mod_n(a, b, n):
     return (a + b) % n
-```
+{% endhighlight %}
