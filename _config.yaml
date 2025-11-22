@@ -1,0 +1,18 @@
+title: "The Apprentice Scholar Library"
+description: "Explaining science to myself"
+baseurl: ""
+url: "https://ntrdxplnr.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    line_numbers: false
+
+# No external theme: we’ll use our own layout
+theme: null
+
+# Nice permalinks
+permalink: /:categories/:title/

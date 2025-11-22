@@ -1,0 +1,18 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Simple horizontal nav */
+nav.tufte-nav {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+nav.tufte-nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav.tufte-nav a:hover {
+  text-decoration: underline;
+}
