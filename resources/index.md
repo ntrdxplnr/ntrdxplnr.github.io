@@ -16,6 +16,7 @@ permalink: /resources/
 - [R](/resources/tools/r/)
 - [Polars](/resources/tools/polars/)
 - [Marimo](/resources/tools/marimo/)
+- Tailwind CSS
 
 ## Datasets
 

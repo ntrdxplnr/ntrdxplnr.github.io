@@ -3,10 +3,4 @@ layout: page
 title: Jupyter AI
 ---
 
-
-```python
-import numpy as np
-
-def f(x):
-    return np.exp(-x**2)
-```
+[Deeplearning.AI's course](https://learn.deeplearning.ai/courses/jupyter-ai-coding-in-notebooks/lesson/5330udp0/introduction)

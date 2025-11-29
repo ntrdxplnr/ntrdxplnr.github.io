@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algebra
+title: Network Science
 ---
 
 This page links to Network Science topics.

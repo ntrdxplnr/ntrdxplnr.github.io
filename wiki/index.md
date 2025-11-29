@@ -13,3 +13,6 @@ Here is the knowledge **Wiki**.
 - [Probability & Statistics](/wiki/maths/probability-statistics/)
 - [Graph Theory](/wiki/maths/graph-theory/)
 - [Network Science](/wiki/maths/networks/)
+
+### Machine Learning
+- Kernels..
